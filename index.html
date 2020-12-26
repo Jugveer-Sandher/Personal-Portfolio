@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>devjug</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">what I know</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">about me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">my work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jugveer Sandher</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">aspiring high school hootsuite intern</p>
+            <img src="img/jug.jpg" alt="a picture of Jugveer smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I know</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Python</h3>
+                    <p>I learnt Python in a part time university class I took for fun! My instructor was so happy with my work he wrote me a recommendation letter feel free to look at my code samples and recommendation letter on GitHub along with my Library project!</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Java</h3>
+                    <p>This was my first ever programming language! I self taught it to myself with the University of Helsinki's online Java MOOC! I'm also enrolled for another university class this upcoming January to March! Check out some of my early
+                        code samples on GitHub!
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>HTML & CSS</h3>
+                    <p>From my webpage you can probably see I have a huge passion for web design! I learnt CSS from FreeCodeCamp and built a Google Homepage replica (click the MY WORK button below and click the Google image!). As I progressed I slowly built this portfolio page!</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about"> HIGH SCHOOL STUDENT DEV</p>
+           
+           <div class="about-me__body">
+               <p>My name is Jugveer Sandher I'm currently a grade 11 and BCIT Computing student. </p>
+
+               <p>My goal for grade 11 and 12 is to be selected for the Hootsuite high school internship. This will help me in my current goal of obtaining enrollment in an American Ivy League University Computer Science program. After graduation I would want to return home and bring my skills back to the Hootsuite family because there is no place like home.</p>
+               
+                <p>In my prior semester during the Fall of 2020 I completed Introduction to Python and Business Communications at BCIT. I obtained a final grade of 94% and 93%. This placed me in the top 90th percentile as a high school student amongst my university classmates. During that time I also earned a place in the top 95th percentile of my high school courses which consisted of English, Biology, Chemistry, Physics, and Pre-Calculus.</p>
+                
+                <p>For the upcoming Winter Semester of 2021 I have enrolled in two computing related courses. This would include: A 2nd year Java OOP and a Programming 11 course. </p>
+                
+                <p>I have also taken steps in my personal development by self learning Java, learning Git/GitHub, using FreeCodeCamp (FCC), and working through The Odin Project (TOP).</p>
+                
+                <p> I am hoping these steps towards developing my skills can help me secure a position as a high school intern at Hootsuite and my mentor can assist me in becoming a positive contributor within the Hootsuite family in the near future.</p>
+               
+           </div>
+           
+           <img src="img/grade-11-basketball.jpeg" alt="About-me-picture" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="letter-recom.html" class="portfolio__item">
+                    <img src="img/letter-2.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="bcit-grades.html" class="portfolio__item">
+                    <img src="img/grades.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://github.com/Jugveer/PythonProjects" target="_blank" class="portfolio__item">
+                    <img src="img/python.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://github.com/Jugveer/PythonProjects/tree/master/Library_Project" target="_blank" class="portfolio__item">
+                    <img src="img/library-3.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="team-work.html" class="portfolio__item">
+                    <img src="img/leader.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://jugveer.github.io/Google-Homepage/" target="_blank" class="portfolio__item">
+                    <img src="img/google-1.jpeg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="https://github.com/Jugveer/BCIT_Communications" target="_blank" class="portfolio__item">
+                    <img src="img/comm-out-loud.jpeg" alt=""  class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="https://github.com/Jugveer/Java_MOOC" target="_blank" class="portfolio__item">
+                    <img src="img/java-logo.jpg" alt=""  class="portfolio__img">
+                </a>
+                
+            </div>      
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- email address -->
+            <a href="mailto:jugveersandher@gmail.com" class="footer__link">jugveersandher@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jugveer-sandher-568336202/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/jugveer1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Jugveer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
